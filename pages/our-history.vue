@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavOne />
+    <!-- <NavOne /> -->
     <PageHeader title="our history" />
     <ChooseAreaTwo />
     <TimeLine />
@@ -10,7 +10,7 @@
   </div>
 </template>
 <script>
-  import NavOne from "../components/NavOne";
+  // import NavOne from "../components/NavOne";
   import PageHeader from "../components/PageHeader";
   import Footer from "../components/Footer";
   import ChooseAreaTwo from "../components/ChooseAreaTwo";
@@ -25,7 +25,7 @@
       ChooseAreaTwo,
       Footer,
       PageHeader,
-      NavOne
+      // NavOne
     },
     head(){
       return {

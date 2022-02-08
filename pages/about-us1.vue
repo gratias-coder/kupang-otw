@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavOne />
+    <!-- <NavOne /> -->
     <PageHeader title="about style 1" />
     <ThinkAreaThree />
     <FunFact />
@@ -13,7 +13,7 @@
   </div>
 </template>
 <script>
-  import NavOne from "../components/NavOne";
+  // import NavOne from "../components/NavOne";
   import PageHeader from "../components/PageHeader";
   import Footer from "../components/Footer";
   import ThinkAreaThree from "../components/ThinkAreaThree";
@@ -34,7 +34,7 @@
       ThinkAreaThree,
       Footer,
       PageHeader,
-      NavOne
+      // NavOne
     },
     head(){
       return {

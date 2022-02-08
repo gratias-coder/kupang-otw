@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavOne />
+    <!-- <NavOne /> -->
     <PageHeader title="partnership" />
     <Partnership />
     <Meet />
@@ -8,7 +8,7 @@
   </div>
 </template>
 <script>
-  import NavOne from "../components/NavOne";
+  // import NavOne from "../components/NavOne";
   import PageHeader from "../components/PageHeader";
   import Footer from "../components/Footer";
   import Partnership from "../components/Partnership";
@@ -19,7 +19,7 @@
       Partnership,
       Footer,
       PageHeader,
-      NavOne
+      // NavOne
     },
     head(){
       return {

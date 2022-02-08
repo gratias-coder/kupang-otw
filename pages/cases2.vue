@@ -1,13 +1,13 @@
 <template>
   <div>
-    <NavOne />
+    <!-- <NavOne /> -->
     <PageHeader title="cases style 2" />
     <CasesPageTwo />
     <Footer />
   </div>
 </template>
 <script>
-  import NavOne from "../components/NavOne";
+  // import NavOne from "../components/NavOne";
   import PageHeader from "../components/PageHeader";
   import Footer from "../components/Footer";
   import CasesPageTwo from "../components/CasesPageTwo";
@@ -16,7 +16,7 @@
       CasesPageTwo,
       Footer,
       PageHeader,
-      NavOne
+      // NavOne
     },
     head(){
       return {

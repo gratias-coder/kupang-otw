@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavThree />
+    <!-- <NavThree /> -->
     <SliderThree />
     <ThinkAreaTwo />
     <Trusted />
@@ -15,7 +15,7 @@
 
 <script>
   import Footer from "../components/Footer";
-  import NavTwo from "../components/NavTwo";
+  // import NavTwo from "../components/NavTwo";
   import SliderTwo from "../components/SliderTwo";
   import ClientsLogo from "../components/ClientsLogo";
   import OfferTwo from "../components/OfferTwo";
@@ -25,7 +25,7 @@
   import ThinkArea from "../components/ThinkArea";
   import Blog from "../components/Blog";
   import Meet from "../components/Meet";
-  import NavThree from "../components/NavThree";
+  // import NavThree from "../components/NavThree";
   import SliderThree from "../components/SliderThree";
   import ThinkAreaTwo from "../components/ThinkAreaTwo";
   import Trusted from "../components/Trusted";
@@ -44,7 +44,7 @@
       Trusted,
       ThinkAreaTwo,
       SliderThree,
-      NavThree,
+      // NavThree,
       Footer,
     },
     head(){

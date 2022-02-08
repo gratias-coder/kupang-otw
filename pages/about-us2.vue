@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavOne />
+    <!-- <NavOne /> -->
     <PageHeader title="about style 2" />
     <ChooseTwo />
     <Skills />
@@ -13,7 +13,7 @@
   </div>
 </template>
 <script>
-  import NavOne from "../components/NavOne";
+  // import NavOne from "../components/NavOne";
   import PageHeader from "../components/PageHeader";
   import Footer from "../components/Footer";
   import Skills from "../components/Skills";
@@ -35,7 +35,7 @@
       Skills,
       Footer,
       PageHeader,
-      NavOne
+      // NavOne
     },
     head(){
       return {

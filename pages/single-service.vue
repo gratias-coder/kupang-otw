@@ -1,13 +1,13 @@
 <template>
   <div>
-    <NavOne />
+    <!-- <NavOne /> -->
     <PageHeader title="Single Service" />
     <ServiceSingle />
     <Footer />
   </div>
 </template>
 <script>
-  import NavOne from "../components/NavOne";
+  // import NavOne from "../components/NavOne";
   import Footer from "../components/Footer";
   import PageHeader from "../components/PageHeader";
   import ServiceSingle from "../components/ServiceSingle";
@@ -16,7 +16,7 @@
       ServiceSingle,
       PageHeader,
       Footer,
-      NavOne
+      // NavOne
     },
     head(){
       return {
