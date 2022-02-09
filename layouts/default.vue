@@ -44,8 +44,8 @@
                                 </div><!-- end site-open -->
                                 <div class="logo">
                                     <nuxt-link to="/" title="Avivon">
-                                    <!-- <img src="/images/logo.png" alt="logo"> -->
-                                    Gereja Kupang
+                                    <!-- <img src="/images/logo-gereja-kpg.jpg" alt="logo" class="image-logo"> -->
+                                   Gereja Kupang
                                     </nuxt-link>
                                 </div><!-- end logo -->
                             </div><!-- end logo-box -->
@@ -57,15 +57,9 @@
                                             
                                         </li>
                                         <li>
-                                            <a href="#">pengumuman</a>
-                                            <div class="main__dropdown-menu">
-                                                <ul>
-                                                  <li><nuxt-link to="/service1">pengumuman mingguan</nuxt-link></li>
-                                                  <li><nuxt-link to="/service2">kolekte</nuxt-link></li>
-                                                  <!-- <li><nuxt-link to="/single-service">single service</nuxt-link></li> -->
-                                                </ul>
-                                            </div><!-- end main__dropdown-menu -->
+                                            <a href="/pengumuman">pengumuman</a>
                                         </li>
+                                        <li> <a href="/kolekte">kolekte</a></li>
                                         <li>
                                             <a href="#">profil</a>
                                             <div class="main__dropdown-menu">

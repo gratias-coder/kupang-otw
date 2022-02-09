@@ -13,7 +13,7 @@
                     </li>
                     <li>{{ title }}</li>
                   </ul>
-                  <h2 class="trusted__title-title">Kolekte</h2>
+                  <h2 class="trusted__title-title">Pengumuman</h2>
                 </div>
                 <!-- end trusted__title -->
               </div>

@@ -101,11 +101,12 @@
             <div class="masonary-item">
               <div class="case-list">
                 <div class="office-list-item">
-                  <div class="office__name">
-                    <span class="office__desc-top">Pengumuman 1</span>
+                  <div class="office__name" v-for="(item, i) in dataPengumuman" :key="i" :item="item">
+                    <span class="office__desc-top">{{item.author}}</span>
                     <h3 class="office__name-title">
-                      <nuxt-link to="/single-cases">Isi pengumuman</nuxt-link>
+                      <nuxt-link to="/single-cases">{{item.pengumuman}}</nuxt-link>
                     </h3>
+                   
                   </div>
                   <!-- end office__name -->
                   <div class="recent__btn">
@@ -215,13 +216,20 @@ export default {
           type: "bullets",
           clickable: true,
         },
-        dataKolekte: [
+        
+      },
+
+      dataKolekte: [
           {
             kolekte: "Isi Kolekte"
           },
         ],
-      },
-    
+        dataPengumuman: [
+          {
+            author: "Admin",
+            pengumuman: "Isi Pengumuman 1"
+          }
+        ]
   }),
   mounted() {
     MediaBox(".mediabox");
