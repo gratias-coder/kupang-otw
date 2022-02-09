@@ -5,7 +5,7 @@
               <div class="row">
                   <div class="col-md-12 primary-padding-2 text-center">
                       <div class="avivon-heading">
-                          <h2 class="avivon__title">blog posts</h2>
+                          <h2 class="avivon__title">Artikel</h2>
                       </div><!-- end avivon-heading -->
                   </div><!-- end col-md-12 -->
               </div><!-- end row -->
@@ -113,7 +113,7 @@
 
 <script>
     export default {
-        name: "Blog"
+        name: "Artikel"
     }
 </script>
 
