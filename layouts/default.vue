@@ -9,23 +9,23 @@
               <li><a href="/">home 01</a></li>
               <li><a href="/index2">home 02</a></li>
               <!-- <li><a href="/index3">home 03</a></li> -->
-              <li class="menu__title-only">services <i class="fas fa-angle-down"></i></li>
-              <li><a href="/service1">services 01</a></li>
-              <li><a href="/service2">services 02</a></li>
-              <li><a href="/single-service">single service</a></li>
-              <li class="menu__title-only">pages <i class="fas fa-angle-down"></i></li>
-              <li><a href="/about-us1">about us 01</a></li>
-              <li><a href="/about-us2">about us 02</a></li>
-              <li><a href="/our-mission">our mission</a></li>
-              <li><a href="/our-history">our history</a></li>
-              <li><a href="/our-partnership">partnership</a></li>
-              <li class="menu__title-only">cases <i class="fas fa-angle-down"></i></li>
+              <li class="menu__title-only">pengumuman <i class="fas fa-angle-down"></i></li>
+              <li><a href="/service1">pengumuman mingguan</a></li>
+              <li><a href="/service2">kolekte</a></li>
+              <!-- <li><a href="/single-service">single service</a></li> -->
+              <li class="menu__title-only">profil <i class="fas fa-angle-down"></i></li>
+              <li><a href="/about-us1">tentang gereja</a></li>
+              <li><a href="/about-us2">tentang sistem</a></li>
+              <!-- <li><a href="/our-mission">our mission</a></li> -->
+              <li><a href="/our-history">sejarah</a></li>
+              <!-- <li><a href="/our-partnership">partnership</a></li> -->
+              <li class="menu__title-only">jadwal misa <i class="fas fa-angle-down"></i></li>
               <li><a href="/cases1">cases 01</a></li>
               <li><a href="/cases2">cases 02</a></li>
               <li><a href="/single-cases">single case</a></li>
-              <li class="menu__title-only">blog <i class="fas fa-angle-down"></i></li>
-              <li><a href="/blog-post">blog post</a></li>
-              <li><a href="/single-blog">single blog</a></li>
+              <li class="menu__title-only">artikel <i class="fas fa-angle-down"></i></li>
+              <li><a href="/artikel">artikel</a></li>
+              <!-- <li><a href="/single-blog">single blog</a></li> -->
               <li class="menu__title-only">contact <i class="fas fa-angle-down"></i></li>
               <li><a href="/contact">contact us</a></li>
           </ul>
@@ -60,29 +60,29 @@
                                             </div><!-- end main__dropdown-menu -->
                                         </li>
                                         <li>
-                                            <a href="#">services</a>
+                                            <a href="#">pengumuman</a>
                                             <div class="main__dropdown-menu">
                                                 <ul>
-                                                  <li><nuxt-link to="/service1">services 01</nuxt-link></li>
-                                                  <li><nuxt-link to="/service2">services 02</nuxt-link></li>
-                                                  <li><nuxt-link to="/single-service">single service</nuxt-link></li>
+                                                  <li><nuxt-link to="/service1">pengumuman mingguan</nuxt-link></li>
+                                                  <li><nuxt-link to="/service2">kolekte</nuxt-link></li>
+                                                  <!-- <li><nuxt-link to="/single-service">single service</nuxt-link></li> -->
                                                 </ul>
                                             </div><!-- end main__dropdown-menu -->
                                         </li>
                                         <li>
-                                            <a href="#">pages</a>
+                                            <a href="#">profil</a>
                                             <div class="main__dropdown-menu">
                                                 <ul>
-                                                  <li><nuxt-link to="/about-us1">about us 01</nuxt-link></li>
-                                                  <li><nuxt-link to="/about-us2">about us 02</nuxt-link></li>
-                                                  <li><nuxt-link to="/our-mission">our mission</nuxt-link></li>
-                                                  <li><nuxt-link to="/our-history">our history</nuxt-link></li>
-                                                  <li><nuxt-link to="/our-partnership">partnership</nuxt-link></li>
+                                                  <li><nuxt-link to="/about-us1">tentang gereja</nuxt-link></li>
+                                                  <li><nuxt-link to="/about-us2">tentang sistem</nuxt-link></li>
+                                                  <!-- <li><nuxt-link to="/our-mission">our mission</nuxt-link></li> -->
+                                                  <li><nuxt-link to="/our-history">sejarah</nuxt-link></li>
+                                                  <!-- <li><nuxt-link to="/our-partnership">partnership</nuxt-link></li> -->
                                                 </ul>
                                             </div><!-- end main__dropdown-menu -->
                                         </li>
                                         <li>
-                                            <a href="#">cases</a>
+                                            <a href="#">jadwal misa</a>
                                             <div class="main__dropdown-menu">
                                                 <ul>
                                                   <li><nuxt-link to="/cases1">cases 01</nuxt-link></li>
@@ -92,14 +92,15 @@
                                             </div><!-- end main__dropdown-menu -->
                                         </li>
                                         <li>
-                                            <a href="#">blog</a>
+                                            <nuxt-link to="/artikel">artikel</nuxt-link>
+                                            <!-- <a href="#">artikel</a>
                                             <div class="main__dropdown-menu">
                                                 <ul>
-                                                  <li><nuxt-link to="/blog-post">blog post</nuxt-link></li>
-                                                  <li><nuxt-link to="/single-blog">single blog</nuxt-link></li>
-                                                </ul>
-                                            </div><!-- end main__dropdown-menu -->
-                                        </li>
+                                                  <li><nuxt-link to="/artikel">artikel</nuxt-link></li>
+                                                  <li><nuxt-link to="/single-blog">single blog</nuxt-link></li> -->
+                                                <!-- </ul> -->
+                                            <!--  </div> --> <!-- end main__dropdown-menu --> 
+                                        </li> 
                                         <li>
                                             <nuxt-link to="/contact">contact</nuxt-link>
                                         </li>
@@ -135,7 +136,7 @@
       },
     head(){
       return {
-        title: "Avivon - Vue Nuxt Business Consulting & Finance Template"
+        title: "Sistem Informasi Gereja St. Petrus Kupang"
       }
     },
     mounted () {

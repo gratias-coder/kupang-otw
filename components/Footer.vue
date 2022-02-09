@@ -7,7 +7,7 @@
                       <div class="col-md-3 col-sm-6 col-xs-12">
                           <div class="footer-shared rpd-content">
                               <div class="footer__title">
-                                  <h3 class="footer__title-title">our address</h3>
+                                  <h3 class="footer__title-title">alamat</h3>
                               </div><!-- end footer__title -->
                               <div class="ftp__links">
                                   <ul>
@@ -19,8 +19,8 @@
                                               needhelp@avivon.com</a>
                                       </li>
                                       <li>
-                                          <p class="add__para-desc"><i class="fas fa-map"></i> 855 road, broklyn street,</p>
-                                          <p class="add__para-desc">new york 600</p>
+                                          <p class="add__para-desc"><i class="fas fa-map"></i> RJMM+P6F, Tuak Daun Merah, Oebobo, Kupang City, </p>
+                                          <p class="add__para-desc">East Nusa Tenggara 85228</p>
                                       </li>
                                   </ul>
                               </div><!-- end ftp__links -->
@@ -33,7 +33,7 @@
                               </div><!-- end footer__title -->
                               <div class="ftp__links menu__links clearfix">
                                   <ul class="ftp__menu-links pull-left">
-                                      <li><a href="/about-us1">about</a></li>
+                                      <li><a href="/about-us1">tentang gereja</a></li>
                                       <li><a href="#">careers</a></li>
                                       <li><a href="#">our team</a></li>
                                       <li><a href="#">approach</a></li>
@@ -49,22 +49,22 @@
                               </div><!-- end ftp__links -->
                           </div><!-- end footer-shared -->
                       </div><!-- end col-md-4 -->
-                      <div class="col-md-5 col-sm-6 col-xs-12">
+                      <!-- <div class="col-md-5 col-sm-6 col-xs-12">
                           <div class="footer-shared">
                               <div class="footer__title">
-                                  <h3 class="footer__title-title">sign up for email alerts</h3>
-                              </div><!-- end footer__title -->
-                              <div class="ftp__links">
+                                  <h3 class="footer__title-title">sign up for email alerts</h3> -->
+                              <!-- </div> --> <!-- end footer__title -->
+                              <!-- <div class="ftp__links">
                                   <div class="ftp__form-subs">
                                       <p class="ftp__links-desc__desc">subscribe for latest articles and resources</p>
                                       <form action="#">
                                           <input type="email" placeholder="enter email">
                                           <button class="email__subscriber-btn"><i class="fas fa-envelope"></i></button>
-                                      </form>
-                                  </div><!-- end ftp__form-subs -->
-                              </div><!-- end ftp__links -->
-                          </div><!-- end footer-shared -->
-                      </div><!-- end col-md-5 -->
+                                      </form> -->
+                                  <!-- </div> --> <!-- end ftp__form-subs -->
+                              <!-- </div> --> <!-- end ftp__links -->
+                          <!-- </div> --> <!-- end footer-shared -->
+                      <!-- </div> --> <!-- end col-md-5 -->
                   </div><!-- end row -->
                   <div class="row">
                       <div class="col-md-12">

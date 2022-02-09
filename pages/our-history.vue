@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- <NavOne /> -->
-    <PageHeader title="our history" />
+    <PageHeader title="sejarah gereja" />
     <ChooseAreaTwo />
     <TimeLine />
     <ClientsLogo />
@@ -29,7 +29,7 @@
     },
     head(){
       return {
-        title: "Avivon | our history"
+        title: "Sejarah Gereja"
       }
     }
 

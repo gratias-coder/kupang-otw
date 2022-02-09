@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- <NavOne /> -->
-    <PageHeader title="about style 1" />
+    <PageHeader title="tentang gereja" />
     <ThinkAreaThree />
     <FunFact />
     <Team />
@@ -38,7 +38,7 @@
     },
     head(){
       return {
-        title: "Avivon | About"
+        title: "Tentang Gereja"
       }
     }
 

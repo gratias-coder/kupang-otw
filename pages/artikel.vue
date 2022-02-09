@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- <NavOne /> -->
-    <PageHeader title="blog posts" />
+    <PageHeader title="artikel" />
     <BlogPosts />
     <Footer />
   </div>
@@ -20,7 +20,7 @@
     },
     head(){
       return {
-        title: "Avivon | blog posts"
+        title: "Artikel"
       }
     }
 
