@@ -5,10 +5,10 @@
       <div :class="`offcanvas-menu ${mobileToggle ? 'active' : ''}`" class="offcanvas-menu">
           <div @click="mobileToggle = !mobileToggle" class="menu__close"></div><!-- end menu__close -->
           <ul class="off__menu">
-              <li class="menu__title-only">home <i class="fas fa-angle-down"></i></li>
-              <li><a href="/">home 01</a></li>
+              <li class="menu__title-only">home<a href="/index2">home 02</a></li>
+              <!-- <li><a href="/">home 01</a></li>
               <li><a href="/index2">home 02</a></li>
-              <!-- <li><a href="/index3">home 03</a></li> -->
+              <li><a href="/index3">home 03</a></li> -->
               <li class="menu__title-only">pengumuman <i class="fas fa-angle-down"></i></li>
               <li><a href="/service1">pengumuman mingguan</a></li>
               <li><a href="/service2">kolekte</a></li>
@@ -43,21 +43,18 @@
                                     <span class="open__only"></span>
                                 </div><!-- end site-open -->
                                 <div class="logo">
-                                    <nuxt-link to="/" title="Avivon"><img src="/images/logo.png" alt="logo"></nuxt-link>
+                                    <nuxt-link to="/" title="Avivon">
+                                    <!-- <img src="/images/logo.png" alt="logo"> -->
+                                    Gereja Kupang
+                                    </nuxt-link>
                                 </div><!-- end logo -->
                             </div><!-- end logo-box -->
                             <div class="main-menu">
                                 <nav class="menu__wrapper">
                                     <ul class="dropdown-main">
                                         <li>
-                                            <a href="#">home</a>
-                                            <div class="main__dropdown-menu">
-                                                <ul>
-                                                  <li><nuxt-link to="/">home 01</nuxt-link></li>
-                                                  <!-- <li><nuxt-link to="/index2">home 02</nuxt-link></li> -->
-                                                  <!-- <li><nuxt-link to="/index3">home 03</nuxt-link></li> -->
-                                                </ul>
-                                            </div><!-- end main__dropdown-menu -->
+                                            <a href="/">home</a>
+                                            
                                         </li>
                                         <li>
                                             <a href="#">pengumuman</a>
