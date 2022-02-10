@@ -14,8 +14,8 @@
               <li><a href="/service2">kolekte</a></li>
               <!-- <li><a href="/single-service">single service</a></li> -->
               <li class="menu__title-only">profil <i class="fas fa-angle-down"></i></li>
-              <li><a href="/about-us1">tentang gereja</a></li>
-              <li><a href="/about-us2">tentang sistem</a></li>
+              <!-- <li><a href="/about-us1">tentang gereja</a></li>
+              <li><a href="/about-us2">tentang sistem</a></li> -->
               <!-- <li><a href="/our-mission">our mission</a></li> -->
               <li><a href="/our-history">sejarah</a></li>
               <!-- <li><a href="/our-partnership">partnership</a></li> -->
@@ -61,16 +61,17 @@
                                         </li>
                                         <li> <a href="/kolekte">kolekte</a></li>
                                         <li>
-                                            <a href="#">profil</a>
-                                            <div class="main__dropdown-menu">
-                                                <ul>
-                                                  <li><nuxt-link to="/about-us1">tentang gereja</nuxt-link></li>
-                                                  <li><nuxt-link to="/about-us2">tentang sistem</nuxt-link></li>
+                                            <!-- <a href="#">profil</a> -->
+                                            <nuxt-link to="/profil">profil</nuxt-link>
+                                            <!-- <div class="main__dropdown-menu"> -->
+                                                <!-- <ul> -->
+                                                  <!-- <li><nuxt-link to="/about-us1">tentang gereja</nuxt-link></li>
+                                                  <li><nuxt-link to="/about-us2">tentang sistem</nuxt-link></li> -->
                                                   <!-- <li><nuxt-link to="/our-mission">our mission</nuxt-link></li> -->
-                                                  <li><nuxt-link to="/our-history">sejarah</nuxt-link></li>
-                                                  <!-- <li><nuxt-link to="/our-partnership">partnership</nuxt-link></li> -->
-                                                </ul>
-                                            </div><!-- end main__dropdown-menu -->
+                                                  <!-- <li><nuxt-link to="/our-history">sejarah</nuxt-link></li>
+                                                  <li><nuxt-link to="/our-partnership">partnership</nuxt-link></li> -->
+                                                <!-- </ul> -->
+                                            <!-- </div> --> <!-- end main__dropdown-menu -->
                                         </li>
                                         <li>
                                             <a href="#">jadwal misa</a>
@@ -93,7 +94,7 @@
                                             <!--  </div> --> <!-- end main__dropdown-menu --> 
                                         </li> 
                                         <li>
-                                            <nuxt-link to="/umat">Umat</nuxt-link>
+                                            <nuxt-link to="/umat">umat</nuxt-link>
                                         </li>
                                     </ul>
                                 </nav><!-- end menu__wrapper -->
