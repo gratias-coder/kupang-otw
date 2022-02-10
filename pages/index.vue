@@ -53,17 +53,13 @@
               <div class="offer-list">
                 <div class="avivon-heading">
                   <h2 class="avivon__title inspire-title">
-                    Tentang Gereja Santo Petrus <br />
-                    Kupang, NTT
+                    Tentang Gereja St. Fransiskus Naimata <br />
+                    
                   </h2>
                   <p class="avivon__desc mt-45px mb-40px">
-                    we inspire and help our customers expand their markets there
-                    are many variations of passages of lorem ipsum is simply
-                    free text available but majority have suffered alteration in
-                    some area that is not form by injected humour or randomised
-                    words don’t know which don't look even slightly believable.
+                    Wilayah Stasi Santo Fransiskus Xaverius Naimata meliputi Kelurahan Naimata, Kecamatan Maulafa, Kelurahan Liliba dan Binilaka. 
                   </p>
-                  <a href="#" class="get__btn"
+                  <a href="/profil" class="get__btn"
                     >selengkapnya
                     <span class="fontello icon-angle-double-right"></span>
                   </a>
@@ -89,12 +85,14 @@
         cases-area
         area-padding
         case-page-1
+        
       "
+      style="background-color: #f5f5f5 "
     >
       <div class="ofc-caoursel-fluid">
         <div class="container">
           <div class="row mb-30px masonary-layout">
-            <div class="avivon-heading mb-30px">
+            <div class="avivon-heading mb-30px" style="text-align: center">
               <h2 class="avivon__title">Pengumuman</h2>
             </div>
             <!-- end col-md-12 -->
@@ -110,7 +108,7 @@
                   </div>
                   <!-- end office__name -->
                   <div class="recent__btn">
-                    <nuxt-link to="/single-cases" class="recent__btn-btn">
+                    <nuxt-link to="/pengumuman" class="recent__btn-btn">
                       Selengkapnya
                       <span class="fontello icon-angle-double-right"></span>
                     </nuxt-link>
@@ -142,7 +140,7 @@
       <div class="ofc-caoursel-fluid">
         <div class="container">
           <div class="row mb-30px masonary-layout">
-            <div class="avivon-heading mb-30px">
+            <div class="avivon-heading mb-30px" style="text-align: center">
               <h2 class="avivon__title">Kolekte</h2>
             </div>
             <!-- end col-md-12 -->
@@ -169,8 +167,56 @@
       </div>
       <!-- end blog-fluid -->
     </section>
-    <Blog />
-    <!-- <Meet /> -->
+
+    <section class="trusted-area area-padding parallax-area text-center mt-8">
+      <div class="trusted-fluid">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="trusted-content">
+                          
+                          <div class="trusted__title mb-60px">
+                              <h2 class="trusted__title-title">
+                                  trusted & professional advisors for your business
+                              </h2>
+                          </div><!-- end trusted__title -->
+                         
+                      </div><!-- end trusted-content -->
+                  </div><!-- end col-md-12 -->
+              </div><!-- end row -->
+          </div><!-- container -->
+      </div><!-- end trusted-fluid -->
+  </section>
+    
+    <section
+      class="
+        ofc-caoursel-area
+        responsive-content
+        recent-area
+        cases-area
+        area-padding
+        case-page-1
+      "
+    >
+      <div class="ofc-caoursel-fluid">
+        <div class="container">
+          <div class="row mb-30px masonary-layout">
+            <div class="avivon-heading mb-30px" style="text-align: center">
+              <h2 class="avivon__title">Artikel</h2>
+            </div>
+            <!-- end col-md-12 -->
+            <div class="masonary-item">
+              <div class="case-list">
+                <div class="office-list-item">
+                  <div class="office__name">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <Footer />
   </div>
 </template>
