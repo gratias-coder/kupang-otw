@@ -11,7 +11,7 @@
                     <li class="active-item">
                       <nuxt-link to="/">home</nuxt-link>
                     </li>
-                    <li>{{ title }}</li>
+                    <!-- <li>{{ title }}</li> -->
                   </ul>
                   <h2 class="trusted__title-title">Kolekte</h2>
                 </div>

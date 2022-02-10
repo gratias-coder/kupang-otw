@@ -93,7 +93,7 @@
                                             <!--  </div> --> <!-- end main__dropdown-menu --> 
                                         </li> 
                                         <li>
-                                            <nuxt-link to="/contact">contact</nuxt-link>
+                                            <nuxt-link to="/umat">Umat</nuxt-link>
                                         </li>
                                     </ul>
                                 </nav><!-- end menu__wrapper -->

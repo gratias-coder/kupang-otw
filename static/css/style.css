@@ -5762,9 +5762,10 @@ a.slider-one__text {
           -o-transition: all 0.3s;
           transition: all 0.3s; }
           .cases-area .case-list .office-list-item .office__name .office__name-title a:hover {
-            color: #ff7e00; }
+            color: #0f0f0f; }
       .cases-area .case-list .office-list-item .office__name span {
-        color: #ff7e00; }
+        color: #000000; 
+      text-align: center;}
         .cases-area .case-list .office-list-item .office__name span:before {
           font-size: 62px; }
     .cases-area .case-list .office-list-item .recent__img {
@@ -6925,3 +6926,4 @@ html {
  	border-radius: 5px 5px 0 0;
  	color: #ff7e00;
 }
+
