@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "netlify": "^11.0.0",
     "nuxt": "^2.15.8",
     "swiper": "^5.3.7",
     "vue-awesome-swiper": "^4.1.0",

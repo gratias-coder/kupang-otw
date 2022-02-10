@@ -29,8 +29,8 @@
             <div class="inspire-list-box">
               <div class="inspire-img mb-30px"></div>
               <!-- end inspire-img -->
-              <div class="story-content">
-                <div class="top-story">
+              <!-- <div class="story-content"> -->
+                <!-- <div class="top-story">
                   <span class="fontello icon-achievement success__icon"></span>
                   <span class="story__numbr counter">
                     <countTo
@@ -40,14 +40,14 @@
                     ></countTo>
                   </span>
                   <span class="story__numbr">+</span>
-                </div>
+                </div> -->
                 <!-- end top-story -->
-                <p class="success__desc">
+                <!-- <p class="success__desc">
                   client success stories by the help of avivon
                 </p>
-              </div>
+              </div> -->
               <!-- end story-content -->
-            </div>
+            </div> 
             <!-- end col-md-6 -->
             <div class="offer-list-box">
               <div class="offer-list">
