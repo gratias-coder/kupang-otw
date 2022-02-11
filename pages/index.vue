@@ -214,14 +214,14 @@
       "
     >
       <div class="ofc-caoursel-fluid">
-        <div class="container">
-          <div class="row mb-30px masonary-layout">
+        
+          
             <div class="avivon-heading mb-30px" style="text-align: center">
               <h2 class="avivon__title">Artikel</h2>
             </div>
             <!-- end col-md-12 -->
-            <div class="masonary-item">
-              <div class="case-list">
+            <div class="d-flex flex-column mx-auto masonary-item py-5 mt-6">
+              <div class="d-flex flex-column mx-auto case-list">
                 <Blog
                   v-for="(item, i) in dataArtikel"
                   :key="i"
@@ -233,8 +233,8 @@
                 />
               </div>
             </div>
-          </div>
-        </div>
+          
+        
       </div>
     </section>
     <Footer />
@@ -294,6 +294,18 @@ export default {
     dataArtikel: [
       {
         title: "Artikel 1",
+        publishDate: "11 Feb",
+        excerpt: "Ini artikel 1"
+      },
+
+      {
+        title: "Artikel 2",
+        publishDate: "11 Feb",
+        excerpt: "Ini artikel 1"
+      },
+
+      {
+        title: "Artikel 3",
         publishDate: "11 Feb",
         excerpt: "Ini artikel 1"
       },

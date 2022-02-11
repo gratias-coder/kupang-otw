@@ -14,7 +14,7 @@
                         .locale("id")
                         .format("DD MMMM YYYY")
                     }} -->
-                   {{publishDate}} </span
+                   {{item.publishDate}} </span
                   >
                   <!-- <span>jul</span> -->
                 </div>
