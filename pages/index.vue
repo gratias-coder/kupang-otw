@@ -30,7 +30,7 @@
               <div class="inspire-img mb-30px"></div>
               <!-- end inspire-img -->
               <!-- <div class="story-content"> -->
-                <!-- <div class="top-story">
+              <!-- <div class="top-story">
                   <span class="fontello icon-achievement success__icon"></span>
                   <span class="story__numbr counter">
                     <countTo
@@ -41,23 +41,24 @@
                   </span>
                   <span class="story__numbr">+</span>
                 </div> -->
-                <!-- end top-story -->
-                <!-- <p class="success__desc">
+              <!-- end top-story -->
+              <!-- <p class="success__desc">
                   client success stories by the help of avivon
                 </p>
               </div> -->
               <!-- end story-content -->
-            </div> 
+            </div>
             <!-- end col-md-6 -->
             <div class="offer-list-box">
               <div class="offer-list">
                 <div class="avivon-heading">
                   <h2 class="avivon__title inspire-title">
                     Tentang Gereja St. Fransiskus Naimata <br />
-                    
                   </h2>
                   <p class="avivon__desc mt-45px mb-40px">
-                    Wilayah Stasi Santo Fransiskus Xaverius Naimata meliputi Kelurahan Naimata, Kecamatan Maulafa, Kelurahan Liliba dan Binilaka. 
+                    Wilayah Stasi Santo Fransiskus Xaverius Naimata meliputi
+                    Kelurahan Naimata, Kecamatan Maulafa, Kelurahan Liliba dan
+                    Binilaka.
                   </p>
                   <a href="/profil" class="get__btn"
                     >selengkapnya
@@ -85,9 +86,8 @@
         cases-area
         area-padding
         case-page-1
-        
       "
-      style="background-color: #f5f5f5 "
+      style="background-color: #f5f5f5"
     >
       <div class="ofc-caoursel-fluid">
         <div class="container">
@@ -99,12 +99,18 @@
             <div class="masonary-item">
               <div class="case-list">
                 <div class="office-list-item">
-                  <div class="office__name" v-for="(item, i) in dataPengumuman" :key="i" :item="item">
-                    <span class="office__desc-top">{{item.author}}</span>
+                  <div
+                    class="office__name"
+                    v-for="(item, i) in dataPengumuman"
+                    :key="i"
+                    :item="item"
+                  >
+                    <span class="office__desc-top">{{ item.author }}</span>
                     <h3 class="office__name-title">
-                      <nuxt-link to="/single-cases">{{item.pengumuman}}</nuxt-link>
+                      <nuxt-link to="/single-cases">{{
+                        item.pengumuman
+                      }}</nuxt-link>
                     </h3>
-                   
                   </div>
                   <!-- end office__name -->
                   <div class="recent__btn">
@@ -150,7 +156,12 @@
                   <div class="office__name">
                     <span class="office__desc-top">Kolekte </span>
                     <h3 class="office__name-title">
-                      <span v-for="(item, i) in dataKolekte" :key="i" :item="item">{{item.kolekte}}</span>
+                      <span
+                        v-for="(item, i) in dataKolekte"
+                        :key="i"
+                        :item="item"
+                        >{{ item.kolekte }}</span
+                      >
                     </h3>
                   </div>
                   <!-- end office__name -->
@@ -170,24 +181,28 @@
 
     <section class="trusted-area area-padding parallax-area text-center mt-8">
       <div class="trusted-fluid">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="trusted-content">
-                          
-                          <div class="trusted__title mb-60px">
-                              <h2 class="trusted__title-title">
-                                  trusted & professional advisors for your business
-                              </h2>
-                          </div><!-- end trusted__title -->
-                         
-                      </div><!-- end trusted-content -->
-                  </div><!-- end col-md-12 -->
-              </div><!-- end row -->
-          </div><!-- container -->
-      </div><!-- end trusted-fluid -->
-  </section>
-    
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="trusted-content">
+                <div class="trusted__title mb-60px">
+                  <h2 class="trusted__title-title">
+                    trusted & professional advisors for your business
+                  </h2>
+                </div>
+                <!-- end trusted__title -->
+              </div>
+              <!-- end trusted-content -->
+            </div>
+            <!-- end col-md-12 -->
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- container -->
+      </div>
+      <!-- end trusted-fluid -->
+    </section>
+
     <section
       class="
         ofc-caoursel-area
@@ -207,10 +222,15 @@
             <!-- end col-md-12 -->
             <div class="masonary-item">
               <div class="case-list">
-                <div class="office-list-item">
-                  <div class="office__name">
-                  </div>
-                </div>
+                <Blog
+                  v-for="(item, i) in dataArtikel"
+                  :key="i"
+                  :item="item"
+                  xs="12"
+                  sm="12"
+                  md="6"
+                  lg="4"
+                />
               </div>
             </div>
           </div>
@@ -243,39 +263,42 @@ export default {
     ObserveVisibility,
   },
 
- 
-
-  data : () => ({
-    
-  
-      swiperOptions: {
-        slidesPerView: 1,
-        loop: false,
-        speed: 1000,
-        spaceBetween: 30,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          type: "bullets",
-          clickable: true,
-        },
-        
+  data: () => ({
+    swiperOptions: {
+      slidesPerView: 1,
+      loop: false,
+      speed: 1000,
+      spaceBetween: 30,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
       },
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+        clickable: true,
+      },
+    },
 
-      dataKolekte: [
-          {
-            kolekte: "Isi Kolekte"
-          },
-        ],
-        dataPengumuman: [
-          {
-            author: "Admin",
-            pengumuman: "Isi Pengumuman 1"
-          }
-        ]
+    dataKolekte: [
+      {
+        kolekte: "Isi Kolekte",
+      },
+    ],
+    dataPengumuman: [
+      {
+        author: "Admin",
+        pengumuman: "Isi Pengumuman 1",
+      },
+    ],
+    dataArtikel: [
+      {
+        title: "Artikel 1",
+        publishDate: "11 Feb",
+        excerpt: "Ini artikel 1"
+      },
+    ],
+    
   }),
   mounted() {
     MediaBox(".mediabox");
