@@ -99,26 +99,7 @@ export default {
         imageLink: "images/blog1.jpg"
       },
 
-      {
-        title: "Artikel 1",
-        publishDate: "11 Feb",
-        excerpt: "Ini artikel 1",
-        imageLink: "images/blog1.jpg",
-      },
-
-      {
-        title: "Artikel 2",
-        publishDate: "11 Feb",
-        excerpt: "Ini artikel 1",
-        imageLink: "images/blog1.jpg"
-      },
-
-      {
-        title: "Artikel 3",
-        publishDate: "11 Feb",
-        excerpt: "Ini artikel 1",
-        imageLink: "images/blog1.jpg"
-      },
+      
     ],
   }),
 };

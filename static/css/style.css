@@ -2795,11 +2795,11 @@ a.slider-one__text {
     height: 708px;
     bottom: 0;
     left: 0;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
     z-index: -1; }
-    @media (max-width: 1440px) {
+    @media (max-width: 600px) {
       .choose-area:after {
-        height: 689px; } }
+        height: 400px; } }
     @media (max-width: 1366px) {
       .choose-area:after {
         height: 679px; } }

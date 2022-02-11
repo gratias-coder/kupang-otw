@@ -78,6 +78,33 @@
       <!-- end offer-fluid -->
     </section>
 
+
+<section class="choose-area area-padding text-center">
+      <div class="choose-fluid">
+          <div class="container">
+              <div class="row choose-content responsive-content">
+                  <div class="avivon-heading mb-30px" style="text-align: center">
+              <h2 class="avivon__title">Jadwal Misa</h2>
+            </div>
+                  <div class="col-md-4 col-sm-6">
+                      <div class="choose-same">
+                          <div class="choose__icon">
+                             <span class="fontello icon-wallet"></span>
+                          </div><!-- end choose__icon -->
+                          <div class="choose__title">
+                              <nuxt-link to="our-mission">
+                                  <h3>Jadwal Misa</h3>
+                              </nuxt-link>
+                          </div><!-- end choose__title -->
+                      </div><!-- end choose-same -->
+                  </div><!-- end col-md-4 -->
+                  
+              </div><!-- end row -->
+          </div><!-- container -->
+      </div><!-- end choose-fluid -->
+  </section>
+
+
     <section
       class="
         ofc-caoursel-area
@@ -187,7 +214,7 @@
               <div class="trusted-content">
                 <div class="trusted__title mb-60px">
                   <h2 class="trusted__title-title">
-                    trusted & professional advisors for your business
+                   Gereja St. Fransiskus Xaverius Naimata
                   </h2>
                 </div>
                 <!-- end trusted__title -->
@@ -214,27 +241,28 @@
       "
     >
       <div class="ofc-caoursel-fluid">
-        
-          
-            <div class="avivon-heading mb-30px" style="text-align: center">
-              <h2 class="avivon__title">Artikel</h2>
+        <div class="avivon-heading mb-30px" style="text-align: center">
+          <h2 class="avivon__title">Artikel</h2>
+        </div>
+        <!-- end col-md-12 -->
+<section class="blog-area responsive-content area-padding">
+        <div class="blog-fluid">
+          <div class="container">
+            <div class="row service-box blog-box text-left">
+              <Blog
+                v-for="(item, i) in dataArtikel"
+                :key="i"
+                :item="item"
+                xs="12"
+                sm="12"
+                md="6"
+                lg="4"
+              />
             </div>
-            <!-- end col-md-12 -->
-            <div class="d-flex flex-column mx-auto masonary-item py-5 mt-6">
-              <div class="d-flex flex-column mx-auto case-list">
-                <Blog
-                  v-for="(item, i) in dataArtikel"
-                  :key="i"
-                  :item="item"
-                  xs="12"
-                  sm="12"
-                  md="6"
-                  lg="4"
-                />
-              </div>
-            </div>
-          
+          </div>
+        </div>
         
+    </section>
       </div>
     </section>
     
@@ -296,20 +324,43 @@ export default {
       {
         title: "Artikel 1",
         publishDate: "11 Feb",
-        excerpt: "Ini artikel 1"
-        
+        excerpt: "Ini artikel 1",
+        imageLink: "images/blog1.jpg",
       },
 
       {
         title: "Artikel 2",
         publishDate: "11 Feb",
-        excerpt: "Ini artikel 1"
+        excerpt: "Ini artikel 1",
+        imageLink: "images/blog1.jpg"
       },
 
       {
         title: "Artikel 3",
         publishDate: "11 Feb",
-        excerpt: "Ini artikel 1"
+        excerpt: "Ini artikel 1",
+        imageLink: "images/blog1.jpg"
+      },
+
+      {
+        title: "Artikel 1",
+        publishDate: "11 Feb",
+        excerpt: "Ini artikel 1",
+        imageLink: "images/blog1.jpg",
+      },
+
+      {
+        title: "Artikel 2",
+        publishDate: "11 Feb",
+        excerpt: "Ini artikel 1",
+        imageLink: "images/blog1.jpg"
+      },
+
+      {
+        title: "Artikel 3",
+        publishDate: "11 Feb",
+        excerpt: "Ini artikel 1",
+        imageLink: "images/blog1.jpg"
       },
     ],
     
