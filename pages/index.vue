@@ -237,6 +237,7 @@
         
       </div>
     </section>
+    
     <Footer />
   </div>
 </template>
@@ -296,6 +297,7 @@ export default {
         title: "Artikel 1",
         publishDate: "11 Feb",
         excerpt: "Ini artikel 1"
+        
       },
 
       {
@@ -312,7 +314,8 @@ export default {
     ],
     
   }),
-  mounted() {
+ 
+ mounted() {
     MediaBox(".mediabox");
   },
   methods: {

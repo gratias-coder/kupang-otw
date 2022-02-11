@@ -24,7 +24,7 @@
               <li><a href="/cases2">cases 02</a></li>
               <li><a href="/single-cases">single case</a></li>
               <li class="menu__title-only">artikel <i class="fas fa-angle-down"></i></li>
-              <li><a href="/artikel">artikel</a></li>
+              <li><a href="/article">artikel</a></li>
               <!-- <li><a href="/single-blog">single blog</a></li> -->
               <li class="menu__title-only">contact <i class="fas fa-angle-down"></i></li>
               <li><a href="/contact">contact us</a></li>
@@ -84,7 +84,7 @@
                                             </div><!-- end main__dropdown-menu -->
                                         </li>
                                         <li>
-                                            <nuxt-link to="/artikel">artikel</nuxt-link>
+                                            <nuxt-link to="/article">artikel</nuxt-link>
                                             <!-- <a href="#">artikel</a>
                                             <div class="main__dropdown-menu">
                                                 <ul>
