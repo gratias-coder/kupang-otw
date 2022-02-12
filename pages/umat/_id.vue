@@ -89,26 +89,56 @@ export default {
   data: () => ({
     dataList: [
       {
-        title: "Stasi St. Fransiskus Xaverius Pondok",
+        title: "KUB Stu. YAKOBUS RASUL",
 
         ling1: "Maria",
         ling2: "Elisabeth",
         ling3: "Agnes",
       },
       {
-        title: "Stasi St. Yohanes Pembaptis Walikukun",
+        title: "KUB Sta. MARIA ROSA MISTIKA",
 
         ling1: "Maria",
         ling2: "Elisabeth",
         ling3: "Agnes",
       },
       {
-        title: "Stasi St. Petrus Kedungmiri",
+        title: "KUB Sta. MARIA RATU DAMAI",
 
         ling1: "Maria",
         ling2: "Elisabeth",
         ling3: "Agnes",
       },
+      {
+        title: " KUB Stu. FRASISKUS DARI ASISI"
+      },
+      {
+        title: "KUB Stu. YOHANES PAULUS II"
+      },
+      {
+        title: "KUB Sta. LUSIA SUNGKAEN"
+      },
+      {
+        title: "KUB Sta. FAMILIA"
+      },
+      {
+        title: "KUB Stu. ANDREAS RASUL"
+      },
+      {
+        title: "KUB Stu. YOSEPH"
+      },
+      {
+        title: "KUB Sta. MARIA BERTABURAN RAHMAT PETUK"
+      },
+      {
+        title: "KUB Sta. YOHANES MARIA VIANEY"
+      },
+      {
+        title: "BIARA SUSTERAN BPS ( BUNDA PENGHARAPAN SELALU) NAIMATA "
+      },
+      {
+        title: "BIARA BRUDER CSA ( CONGREGASI Stu. ALOYSIUS) NAIMATA"
+      }
     ],
   }),
 };
