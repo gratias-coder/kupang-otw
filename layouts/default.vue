@@ -19,7 +19,7 @@
               <!-- <li><a href="/our-mission">our mission</a></li> -->
               <li><a href="/our-history">sejarah</a></li>
               <!-- <li><a href="/our-partnership">partnership</a></li> -->
-              <li class="menu__title-only">jadwal misa <i class="fas fa-angle-down"></i></li>
+              <!-- <li class="menu__title-only">jadwal misa <i class="fas fa-angle-down"></i></li> -->
               <li><a href="/cases1">cases 01</a></li>
               <li><a href="/cases2">cases 02</a></li>
               <li><a href="/single-cases">single case</a></li>
@@ -73,7 +73,7 @@
                                                 <!-- </ul> -->
                                             <!-- </div> --> <!-- end main__dropdown-menu -->
                                         </li>
-                                        <li>
+                                        <!-- <li>
                                             <a href="#">jadwal misa</a>
                                             <div class="main__dropdown-menu">
                                                 <ul>
@@ -81,8 +81,8 @@
                                                   <li><nuxt-link to="/cases2">cases 02</nuxt-link></li>
                                                   <li><nuxt-link to="/single-cases">single case</nuxt-link></li>
                                                 </ul>
-                                            </div><!-- end main__dropdown-menu -->
-                                        </li>
+                                            </div>
+                                        </li> -->
                                         <li>
                                             <nuxt-link to="/article">artikel</nuxt-link>
                                             <!-- <a href="#">artikel</a>

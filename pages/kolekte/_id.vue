@@ -45,17 +45,17 @@
             <div class="masonary-item">
               <div class="case-list">
                 <div class="office-list-item"
-                 v-for="(item, i) in dataPengumuman"
+                 v-for="(item, i) in dataKolekte"
                     :key="i"
                     :item="item">
                   <div
                     class="office__name"
                    
                   >
-                    <span class="office__desc-top">{{ item.author }}</span>
+                    <span class="office__desc-top">{{ item.title }}</span>
                     <h3 class="office__name-title">
                       <span>{{
-                        item.pengumuman
+                        item.nominal
                       }}</span>
                     </h3>
                     
@@ -75,25 +75,32 @@
       </div>
       <!-- end blog-fluid -->
     </section>
+
+    <Footer />
+
   </div>
 </template>
 
 <script>
+import Footer from "../../components/Footer.vue";
 
 export default ({
+  components: {
+    Footer,
+  },
      data : () => ({
-      dataPengumuman: [
+      dataKolekte: [
           {
-            author: "Admin",
-            pengumuman: "Isi Pengumuman 1"
+            title: "Kolekte Minggu 13 Februari 2022",
+            nominal: "Rp 5.487.000"
           },
           {
-            author: "Admin",
-            pengumuman: "Isi Pengumuman 2"
+            title: "Kolekte Minggu 20 Februari 2022",
+            nominal: "Rp 2.375.000"
           },
           {
-            author: "Admin",
-            pengumuman: "Isi Pengumuman 3"
+            title: "Kolekte Minggu 27 Februari 2022",
+            nominal: "Rp 4.300.000"
           }
         ]
      })
