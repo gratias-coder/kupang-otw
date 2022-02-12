@@ -101,7 +101,7 @@
                               <ul class="side__bar-links">
                                   <li>
                                       <a href="#">consumer products</a>
-                                      <span class="fontello icon-angle-double-right"></span>
+                                      <span class=" icon-angle-double-right"></span>
                                   </li>
                                    <li>
                                       <a href="#">audit marketing</a>
