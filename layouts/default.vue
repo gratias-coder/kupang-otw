@@ -44,8 +44,8 @@
                                 </div><!-- end site-open -->
                                 <div class="logo">
                                     <nuxt-link to="/" title="Avivon">
-                                    <!-- <img src="/images/logo-gereja-kpg.jpg" alt="logo" class="image-logo"> -->
-                                   Gereja Kupang
+                                    <img src="/images/logo-gereja-kpg.png" alt="logo" class="image-logo">
+                                   <!-- Gereja Kupang -->
                                     </nuxt-link>
                                 </div><!-- end logo -->
                             </div><!-- end logo-box -->

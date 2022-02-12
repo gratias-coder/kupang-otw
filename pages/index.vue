@@ -2,19 +2,19 @@
   <div>
     <!-- <NavTwo /> -->
     
-    <section class="slider-area" id="home">
+    <!-- <section class="slider-area" id="home">
     <div class="slider-fluid">
         <div class="home-slider">
-            <div id="rev_slider_1078_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classic4export" data-source="gallery">
+            <div id="rev_slider_1078_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classic4export" data-source="gallery"> -->
                 <!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
-                <div id="rev_slider_1078_1" class="rev_slider fullwidthabanner" data-version="5.4.1">
-                    <ul>	<!-- SLIDE  -->
-                        <li data-index="rs-3045" data-transition="boxfade" data-slotamount="default"
-                            data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                <!-- <div id="rev_slider_1078_1" class="rev_slider fullwidthabanner" data-version="5.4.1"> -->
+                    <!-- <ul>	--> <!-- SLIDE  -->
+                        <!-- <li data-index="rs-3045" data-transition="boxfade" data-slotamount="default"
+                            data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> -->
                             <!-- MAIN IMAGE -->
-                            <img src="images/home-screen2.jpg"  alt=""  data-bgposition="center center"
+                            <!-- <img src="images/home-screen2.jpg"  alt=""  data-bgposition="center center"
                                  data-bgfit="cover"
-                                 data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                                 data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina> -->
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 1 -->
@@ -104,7 +104,7 @@
                                     <span>twitter &nbsp;&nbsp;&nbsp;&nbsp; facebook&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linkedin </span>
                                 </div>
                             </div> -->
-                        </li>
+                        <!-- </li> -->
                             <!-- SLIDE  -->
                         <!-- <li data-index="rs-3046" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                             data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500"  data-rotate="0"  data-saveperformance="off"  data-title="Parallax" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> -->
@@ -205,16 +205,16 @@
                                 </div>
                             </div> -->
                         <!-- </li> -->
-                    </ul>
-                    <div class="tp-bannertimer tp-bottom"></div>
-               </div><!-- end fullwidthabanner -->
-            </div><!-- END REVOLUTION SLIDER -->
-        </div><!-- home-slider -->
-    </div><!-- end slider-fluid -->
-</section><!-- end slider-area -->
+                    <!-- </ul> -->
+                    <!-- <div class="tp-bannertimer tp-bottom"></div> -->
+               <!-- </div>  --><!-- end fullwidthabanner -->
+            <!-- </div> --> <!-- END REVOLUTION SLIDER -->
+        <!-- </div> --> <!-- home-slider -->
+    <!-- </div> --> <!-- end slider-fluid -->
+<!-- </section> --> <!-- end slider-area -->
 
-    <!-- <section class="slider-one">
-      <div class="slider-one__carousel">
+    <!-- section class="slider-area">
+      <div class="slider-fluid">
         <swiper :options="swiperOptions">
           <swiper-slide>
             <div
@@ -230,6 +230,24 @@
         </swiper>
       </div>
     </section> -->
+
+    <section class="trusted-area breadcrumb-area text-center"
+    style="background-image: url(/images/home-screen2.jpg)">
+      <div class="trusted-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="trusted-content">
+                <div class="trusted__title">
+                  <h3 class="trusted__title-title">Selamat Datang di Sistem Informasi <br> </h3>
+                  <h1> Gereja Stasi St. Fransiskus Xaverius Naimata</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section
       v-observe-visibility="onVisibilityChange"
