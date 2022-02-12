@@ -1,6 +1,7 @@
 <template>
     <div>
-        <section class="trusted-area breadcrumb-area text-center">
+        <section class="trusted-area breadcrumb-area text-center"
+        style="background-image: url(/images/profil.jpg)">
             <div class="trusted-fluid">
                 <div class="container">
                     <div class="row">
@@ -29,7 +30,8 @@
                 <div class="container">
                     <div class="row offer-content">
                         <div class="inspire-list-box">
-                            <div class="inspire-img mb-30px"></div>
+                            <div class="inspire-img mb-30px"
+                            style="background-image: url(/images/santo_fransiskus.jpg)"></div>
                         </div>
                         <div class="offer-list-box">
                             <div class="offer-list">

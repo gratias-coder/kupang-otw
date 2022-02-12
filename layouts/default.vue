@@ -128,7 +128,7 @@
       },
     head(){
       return {
-        title: "Sistem Informasi Gereja St. Petrus Kupang"
+        title: "Sistem Informasi Gereja Stasi Santo Fransiskus Xaverius Naimata Kupang"
       }
     },
     mounted () {

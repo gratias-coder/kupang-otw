@@ -1,6 +1,7 @@
 <template>
   <div>
-    <section class="trusted-area breadcrumb-area text-center">
+    <section class="trusted-area breadcrumb-area text-center"
+    style="background-image: url(/images/pengumuman.jpg)">
       <div class="trusted-fluid">
         <div class="container">
           <div class="row">
