@@ -46,7 +46,6 @@
 
                                     <nuxt-link to="/" title="Fransiskus Naimata">
                                     <img src="/images/logo-gereja-kpg.png" alt="logo">
-
                                     </nuxt-link>
                                 </div><!-- end logo -->
                             </div><!-- end logo-box -->
