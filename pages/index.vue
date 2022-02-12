@@ -239,7 +239,7 @@
             <div class="col-md-12">
               <div class="trusted-content">
                 <div class="trusted__title">
-                  <h3 class="trusted__title-title">Selamat Datang di Sistem Informasi <br> </h3>
+                  <h3 class="trusted__title-title">Selamat Datang di  <br> </h3>
                   <h1> Gereja Stasi St. Fransiskus Xaverius Naimata</h1>
                 </div>
               </div>
@@ -313,22 +313,50 @@
 <section class="choose-area area-padding text-center">
       <div class="choose-fluid">
           <div class="container">
-              <div class="row choose-content responsive-content">
+              <div class="row choose-content responsive-content" >
                   <div class="avivon-heading mb-30px" style="text-align: center">
                       <h2 class="avivon__title">Jadwal Misa</h2>
                   </div>
+                 
                   <div class="col-md-4 col-sm-6">
                       <div class="choose-same">
                           <div class="choose__icon">
-                             <span class="fontello icon-wallet"></span>
+                             <span class="fontello icon-exploration"></span>
                           </div><!-- end choose__icon -->
                           <div class="choose__title">
                               <nuxt-link to="jadwal_misa">
-                                  <h3>Jadwal Misa</h3>
+                                  <h3>Jadwal Misa Harian</h3>
+                                  <p> 06.00 WITA</p>
                               </nuxt-link>
-                          </div><!-- end choose__title -->
+                          </div>
                       </div><!-- end choose-same -->
                   </div><!-- end col-md-4 -->
+                  <div class="col-md-4 col-sm-6">
+                      <div class="choose-same">
+                          <div class="choose__icon">
+                             <span class="fontello icon-exploration"></span>
+                          </div><!-- end choose__icon -->
+                          <div class="choose__title">
+                              <nuxt-link to="jadwal_misa">
+                                  <h3>Jadwal Mingguan</h3>
+                                  <p> 08.00 WITA</p>
+                              </nuxt-link>
+                          </div>
+                      </div><!-- end choose-same -->
+                  </div>
+                 <div class="col-md-4 col-sm-6">
+                      <div class="choose-same">
+                          <div class="choose__icon">
+                             <span class="fontello icon-exploration"></span>
+                          </div><!-- end choose__icon -->
+                          <div class="choose__title">
+                              <nuxt-link to="jadwal_misa">
+                                  <h3>Jadwal Hari Raya</h3>
+                                  <p>Belum Tersedia</p>
+                              </nuxt-link>
+                          </div>
+                      </div><!-- end choose-same -->
+                  </div>
               </div><!-- end row -->
           </div><!-- container -->
       </div><!-- end choose-fluid -->

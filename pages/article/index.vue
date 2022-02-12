@@ -38,9 +38,7 @@
       "
     >
       <div class="ofc-caoursel-fluid">
-        <div class="avivon-heading mb-30px" style="text-align: center">
-          <h2 class="avivon__title">Artikel</h2>
-        </div>
+       
         <!-- end col-md-12 -->
 <section class="blog-area responsive-content area-padding">
         <div class="blog-fluid">

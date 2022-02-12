@@ -1,7 +1,9 @@
 <template>
   <div>
-    <section class="trusted-area breadcrumb-area text-center"
-    style="background-image: url(/images/lingkungan.jpg)">
+    <section
+      class="trusted-area breadcrumb-area text-center"
+      style="background-image: url(/images/lingkungan.jpg)"
+    >
       <div class="trusted-fluid">
         <div class="container">
           <div class="row">
@@ -40,33 +42,33 @@
       <div class="ofc-caoursel-fluid">
         <div class="container">
           <div class="row mb-30px masonary-layout">
-            <v-col
-              v-for="(item, i) in dataList"
-              :key="i"
-              xs="12"
-              sm="12"
-              md="6"
-              lg="4"
-              class="masonary-item"
-            >
-              <div class="case-list">
-                <div class="office-list-item">
-                  <div class="office__name">
+            <div class="case-list">
+              
+                  <v-col
+                    v-for="(item, i) in dataList"
+                    :key="i"
+                    xs="12"
+                    sm="12"
+                    md="6"
+                    lg="4"
+                    class="masonary-item"
+                  ><div class="office-list-item">
+                <div class="office__name">
                     <span class="office__name-title">{{ item.title }}</span>
-                    <div class="mt-4">
+                    <!-- <div class="mt-4">
                       <li>{{ item.ling1 }}</li>
                       <li>{{ item.ling2 }}</li>
                       <li>{{ item.ling3 }}</li>
-                    </div>
-                    <br />
-                  </div>
-                  <!-- end office__name -->
-                  <br />
-                </div>
-                <!-- end office-list-item -->
+                    </div> -->
+
+                     </div>
+                
+                <br />
               </div>
-              <!-- end office-list -->
-            </v-col>
+                  </v-col>
+               
+              
+            </div>
             <!-- end col -->
           </div>
           <!-- end row -->
@@ -91,54 +93,54 @@ export default {
       {
         title: "KUB Stu. YAKOBUS RASUL",
 
-        ling1: "Maria",
-        ling2: "Elisabeth",
-        ling3: "Agnes",
+        // ling1: "Maria",
+        // ling2: "Elisabeth",
+        // ling3: "Agnes",
       },
       {
         title: "KUB Sta. MARIA ROSA MISTIKA",
 
-        ling1: "Maria",
-        ling2: "Elisabeth",
-        ling3: "Agnes",
+        // ling1: "Maria",
+        // ling2: "Elisabeth",
+        // ling3: "Agnes",
       },
       {
         title: "KUB Sta. MARIA RATU DAMAI",
 
-        ling1: "Maria",
-        ling2: "Elisabeth",
-        ling3: "Agnes",
+        // ling1: "Maria",
+        // ling2: "Elisabeth",
+        // ling3: "Agnes",
       },
       {
-        title: " KUB Stu. FRASISKUS DARI ASISI"
+        title: " KUB Stu. FRASISKUS DARI ASISI",
       },
       {
-        title: "KUB Stu. YOHANES PAULUS II"
+        title: "KUB Stu. YOHANES PAULUS II",
       },
       {
-        title: "KUB Sta. LUSIA SUNGKAEN"
+        title: "KUB Sta. LUSIA SUNGKAEN",
       },
       {
-        title: "KUB Sta. FAMILIA"
+        title: "KUB Sta. FAMILIA",
       },
       {
-        title: "KUB Stu. ANDREAS RASUL"
+        title: "KUB Stu. ANDREAS RASUL",
       },
       {
-        title: "KUB Stu. YOSEPH"
+        title: "KUB Stu. YOSEPH",
       },
       {
-        title: "KUB Sta. MARIA BERTABURAN RAHMAT PETUK"
+        title: "KUB Sta. MARIA BERTABURAN RAHMAT PETUK",
       },
       {
-        title: "KUB Sta. YOHANES MARIA VIANEY"
+        title: "KUB Sta. YOHANES MARIA VIANEY",
       },
       {
-        title: "BIARA SUSTERAN BPS ( BUNDA PENGHARAPAN SELALU) NAIMATA "
+        title: "BIARA SUSTERAN BPS ( BUNDA PENGHARAPAN SELALU) NAIMATA ",
       },
       {
-        title: "BIARA BRUDER CSA ( CONGREGASI Stu. ALOYSIUS) NAIMATA"
-      }
+        title: "BIARA BRUDER CSA ( CONGREGASI Stu. ALOYSIUS) NAIMATA",
+      },
     ],
   }),
 };

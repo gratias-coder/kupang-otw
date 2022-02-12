@@ -43,9 +43,10 @@
                                     <span class="open__only"></span>
                                 </div><!-- end site-open -->
                                 <div class="logo">
-                                    <nuxt-link to="/" title="Avivon">
-                                    <img src="/images/logo-gereja-kpg.png" alt="logo" class="image-logo">
-                                   <!-- Gereja Kupang -->
+
+                                    <nuxt-link to="/" title="Fransiskus Naimata">
+                                    <img src="/images/logo-gereja-kpg.png" alt="logo">
+
                                     </nuxt-link>
                                 </div><!-- end logo -->
                             </div><!-- end logo-box -->
@@ -54,6 +55,10 @@
                                     <ul class="dropdown-main">
                                         <li>
                                             <a href="/">home</a>
+                                            
+                                        </li>
+                                         <li>
+                                            <a href="/jadwal_misa">jadwal misa</a>
                                             
                                         </li>
                                         <li>
