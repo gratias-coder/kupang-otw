@@ -239,7 +239,7 @@
             <div class="col-md-12">
               <div class="trusted-content">
                 <div class="trusted__title">
-                  <h3 class="trusted__title-title">Selamat Datang di  <br> </h3>
+                  <h3 class="trusted__title-title">Selamat Datang<br> </h3>
                   <h1> Gereja Stasi St. Fransiskus Xaverius Naimata</h1>
                 </div>
               </div>
