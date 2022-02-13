@@ -1,3 +1,6 @@
+import dotenv from 'dotenv'
+const axios = require ('axios')
+
 
 export default {
   mode: 'universal',
@@ -59,6 +62,24 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
+    }
+  },
+  generate: {
+    async routes (callback) {
+      let gratiasUrl = 'https://api.gratiascoder.com/'
+
+      const articles = await axios.get(gratiasUrl+'/articles').then((res) => {
+        return res.data
+      }).catch(callback)
+
+      const routeList = [
+        {
+          route : '/articles/',
+          payload: articles
+        }
+      ]
+
+      callback(null, routeList)
     }
   }
 }
