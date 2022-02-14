@@ -1,7 +1,11 @@
 import dotenv from 'dotenv'
 const axios = require ('axios')
 
-
+async function getPayload (url, callback) {
+  return await axios.get(url).then((res) => {
+    return res.data
+  }).catch(callback);
+}
 const setting = {
   mode: "universal",
   /*
@@ -72,12 +76,7 @@ const setting = {
     async routes(callback) {
       let gratiasUrl = "http://194.163.40.28:3001/";
 
-      const articles = await axios
-        .get(gratiasUrl + "/articles")
-        .then(res => {
-          return res.data;
-        })
-        .catch(callback);
+      const articles = await getPayload(gratiasUrl+'articles/')
 
       const routeList = [
         {
