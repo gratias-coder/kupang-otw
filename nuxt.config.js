@@ -74,7 +74,7 @@ export default {
 
       const routeList = [
         {
-          route : '/articles/',
+          route : '/article/',
           payload: articles
         }
       ]
