@@ -64,22 +64,22 @@ export default {
     extend (config, ctx) {
     }
   },
-  // generate: {
-  //   async routes (callback) {
-  //     let gratiasUrl = 'https://api.gratiascoder.com/'
+  generate: {
+    async routes (callback) {
+      let gratiasUrl = "http://194.163.40.28:3001/";
 
-  //     const articles = await axios.get(gratiasUrl+'/articles').then((res) => {
-  //       return res.data
-  //     }).catch(callback)
+      const articles = await axios.get(gratiasUrl+'/articles').then((res) => {
+        return res.data
+      }).catch(callback)
 
-  //     const routeList = [
-  //       {
-  //         route : '/articles/',
-  //         payload: articles
-  //       }
-  //     ]
+      const routeList = [
+        {
+          route : '/articles/',
+          payload: articles
+        }
+      ]
 
-  //     callback(null, routeList)
-  //   }
-  // }
+      callback(null, routeList)
+    }
+  }
 }
