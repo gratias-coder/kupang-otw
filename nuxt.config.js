@@ -2,84 +2,100 @@ import dotenv from 'dotenv'
 const axios = require ('axios')
 
 
-export default {
-  mode: 'universal',
+const setting = {
+  mode: "universal",
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: process.env.npm_package_name || "",
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content: process.env.npm_package_description || ""
+      }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', sizes:'16x16', href: '/images/favicon.png' },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "16x16",
+        href: "/images/favicon.png"
+      },
       { rel: "stylesheet", href: "/css/bootstrap.min.css" },
       { rel: "stylesheet", href: "/css/font-awesome.css" },
       { rel: "stylesheet", href: "/css/fontello.css" },
       { rel: "stylesheet", href: "/plugins/mediabox/mediabox.min.css" },
       { rel: "stylesheet", href: "/plugins/accordion/accordion.css" },
-      { rel: "stylesheet", href: "/css/style.css" },
+      { rel: "stylesheet", href: "/css/style.css" }
     ],
     script: [
       { src: "/plugins/mediabox/mediabox.min.js", body: true },
       { src: "/plugins/chartjs/chart.js", body: true },
-      { src: "/plugins/accordion/accordion.min.js", body: true },
-
+      { src: "/plugins/accordion/accordion.min.js", body: true }
     ]
   },
   /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: '#ff7e00', height: '4px' },
+   ** Customize the progress-bar color
+   */
+  loading: { color: "#ff7e00", height: "4px" },
   /*
-  ** Global CSS
-  */
-  css: [
-  ],
+   ** Global CSS
+   */
+  css: [],
   /*
-  ** Plugins to load before mounting the App
-  */
-  plugins: [
-  ],
+   ** Plugins to load before mounting the App
+   */
+  plugins: [],
   /*
-  ** Nuxt.js dev-modules
-  */
-  buildModules: [
-  ],
+   ** Nuxt.js dev-modules
+   */
+  buildModules: [],
   /*
-  ** Nuxt.js modules
-  */
-  modules: [
-  ],
+   ** Nuxt.js modules
+   */
+  modules: [],
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   */
   build: {
     /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
-    }
+     ** You can extend webpack config here
+     */
+    extend(config, ctx) {}
   },
+  target: "static",
   generate: {
-    async routes (callback) {
+    async routes(callback) {
       let gratiasUrl = "http://194.163.40.28:3001/";
 
-      const articles = await axios.get(gratiasUrl+'/articles').then((res) => {
-        return res.data
-      }).catch(callback)
+      const articles = await axios
+        .get(gratiasUrl + "/articles")
+        .then(res => {
+          return res.data;
+        })
+        .catch(callback);
 
       const routeList = [
         {
-          route : '/article/index',
+          route: "/article/index",
           payload: articles
         }
-      ]
+      ];
 
-      callback(null, routeList)
+      callback(null, routeList);
     }
   }
-}
+};
+
+let baseURL = "";
+
+setting.axios = {
+  baseURL
+};
+
+
+export default setting
